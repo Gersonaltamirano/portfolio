@@ -11,6 +11,10 @@ This repository contains a static portfolio that can be opened directly in a bro
 
 The portfolio includes responsive design, light/dark mode, contact links and a curated project timeline.
 
+Social preview image:
+
+- `assets/og-image.png`
+
 ## Profile
 
 I build dependable web platforms, custom plugins, integrations and internal systems for companies that need reliable software for daily operations. My strongest experience is in back-end development with Laravel, PHP, MySQL, JavaScript and REST APIs, supported by responsive front-end implementation, WordPress/WooCommerce customization and local development workflows.
@@ -100,4 +104,9 @@ Key UI features:
 - Light/dark theme toggle
 - Professional project cards
 - Contact card with WhatsApp, email, phone, LinkedIn and GitHub
+- SEO metadata, Open Graph tags and Twitter Card preview image
 - No build step required
+
+## Deployment Note
+
+The SEO metadata uses `https://gersonaltamirano.github.io/portafolio/` as the public URL. If this site is deployed to a different domain, update the canonical URL and social preview URLs in `index.html`.
