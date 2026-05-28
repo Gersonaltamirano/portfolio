@@ -366,7 +366,9 @@ h3 {
 .hero-metrics span,
 .project-topline,
 .impact-list,
+.case-points p,
 .skills-grid p,
+.approach-grid p,
 .fit-list,
 .intro p,
 .contact-section p {
@@ -394,6 +396,17 @@ h3 {
   line-height: 1.75;
 }
 
+.rate-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  color: var(--ink);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  font-weight: 700;
+}
+
 .section-heading {
   max-width: 800px;
   margin-bottom: 34px;
@@ -402,6 +415,25 @@ h3 {
 .project-list {
   display: grid;
   gap: 18px;
+}
+
+.project-divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 16px 0 2px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.project-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
 }
 
 .project-card {
@@ -481,6 +513,34 @@ h3 {
   line-height: 1.55;
 }
 
+.case-points {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 20px 0 22px;
+}
+
+.case-points article {
+  padding: 4px 14px;
+  border-left: 2px solid var(--line);
+}
+
+.case-points strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.case-points p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
 .tech-tags {
   display: flex;
   flex-wrap: wrap;
@@ -504,6 +564,28 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.approach-grid article {
+  min-height: 210px;
+  padding: 26px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.approach-grid h3 {
+  font-size: 18px;
+}
+
+.approach-grid p {
+  line-height: 1.65;
 }
 
 .skills-grid article {
@@ -769,6 +851,11 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .approach-grid,
+  .case-points {
+    grid-template-columns: 1fr;
+  }
+
   .intro,
   .fit-section,
   .contact-section {
@@ -825,6 +912,7 @@ h3 {
   }
 
   .hero-metrics,
+  .approach-grid,
   .skills-grid {
     grid-template-columns: 1fr;
   }
