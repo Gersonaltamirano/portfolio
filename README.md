@@ -1,6 +1,6 @@
 # Gerson Altamirano | Senior Web Developer
 
-Professional portfolio and CV-style presentation for my work as a web developer focused on business systems, API integrations, Laravel applications, WordPress/WooCommerce development and database-backed platforms.
+Professional portfolio and CV-style presentation for my work as a senior web developer with more than 10 years of experience focused on business systems, API integrations, Laravel applications, WordPress/WooCommerce development and database-backed platforms.
 
 ## Preview
 
@@ -17,7 +17,7 @@ Social preview image:
 
 ## Profile
 
-I build dependable web platforms, custom plugins, integrations and internal systems for companies that need reliable software for daily operations. My strongest experience is in back-end development with Laravel, PHP, MySQL, JavaScript and REST APIs, supported by responsive front-end implementation, WordPress/WooCommerce customization and local development workflows.
+I have more than 10 years of professional experience building dependable web platforms, custom plugins, integrations and internal systems for companies that need reliable software for daily operations. My strongest experience is in back-end development with Laravel, PHP, MySQL, JavaScript and REST APIs, supported by responsive front-end implementation, WordPress/WooCommerce customization and local development workflows.
 
 ## Core Skills
 
