@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Senior web developer portfolio focused on PHP, MySQL, Laravel, WordPress, WooCommerce, APIs and responsive web systems.">
+  <title>Gerson Altamirano | Senior Web Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    const savedTheme = localStorage.getItem("portfolio-theme");
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.dataset.theme = savedTheme || systemTheme;
+  </script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Portfolio home">
+      <span class="brand-mark">WD</span>
+      <span>
+        <strong>Gerson Altamirano</strong>
+        <small>Senior Web Developer</small>
+      </span>
+    </a>
+    <div class="header-actions">
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#fit">Role Fit</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="theme-switcher" role="group" aria-label="Theme preference">
+        <button type="button" data-theme-choice="light" aria-label="Use light mode" title="Light mode">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+          </svg>
+        </button>
+        <button type="button" data-theme-choice="dark" aria-label="Use dark mode" title="Dark mode">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M20.9 14.3A8.5 8.5 0 0 1 9.7 3.1a8.8 8.8 0 1 0 11.2 11.2Z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-visual" aria-hidden="true">
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="dashboard">
+            <div class="dash-sidebar"></div>
+            <div class="dash-main">
+              <div class="dash-line wide"></div>
+              <div class="dash-grid">
+                <div></div><div></div><div></div>
+              </div>
+              <div class="dash-chart">
+                <span style="height: 36%"></span>
+                <span style="height: 70%"></span>
+                <span style="height: 48%"></span>
+                <span style="height: 86%"></span>
+                <span style="height: 61%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">Freelance / Contract Web Developer</p>
+        <h1>Laravel, PHP, WordPress, WooCommerce and API development for production business systems.</h1>
+        <p class="lead">I build dependable Laravel applications, web platforms, custom plugins, integrations and internal systems with the practical mindset teams need: clean handoff, responsive execution, database discipline and fast adaptation across multiple projects.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">View Projects</a>
+          <a class="button secondary" href="mailto:gersonaltamirano@gmail.com">Email Me</a>
+        </div>
+      </div>
+      <div class="hero-metrics" aria-label="Portfolio highlights">
+        <article>
+          <strong>5+ yrs</strong>
+          <span>hands-on web development</span>
+        </article>
+        <article>
+          <strong>Laravel</strong>
+          <span>MVC apps, APIs and admin systems</span>
+        </article>
+        <article>
+          <strong>WP + WC</strong>
+          <span>custom plugin and commerce work</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section intro">
+      <div>
+        <p class="eyebrow">Profile</p>
+        <h2>Developer who can move between agency pace and enterprise reliability.</h2>
+      </div>
+      <p>I have delivered Laravel applications, fiscal integrations, WordPress/WooCommerce extensions, inventory systems, government-facing workflows, sales platforms and operational dashboards. My strongest lane is back-end web development with Laravel, PHP, MySQL, JavaScript and API integrations, supported by responsive front-end implementation and local development setup experience.</p>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-heading">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Projects ordered from most recent to oldest.</h2>
+      </div>
+
+      <div class="project-list">
+        <article class="project-card featured">
+          <div class="project-media fiscal">
+            <span class="project-logo">AF</span>
+          </div>
+          <div class="project-content">
+            <div class="project-topline">
+              <span class="status">Most Recent</span>
+              <span>API / SaaS Platform</span>
+            </div>
+            <h3>APIFELCore</h3>
+            <p>Laravel-based core platform for electronic invoicing operations, built around secure API flows, document processing, client configuration and database-backed transaction tracking.</p>
+            <ul class="impact-list">
+              <li>Designed REST-style endpoints for invoice lifecycle operations and service integrations.</li>
+              <li>Structured relational data for companies, credentials, documents, logs and audit trails.</li>
+              <li>Implemented admin workflows for configuration, validation, monitoring and support.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>PHP</span><span>Laravel</span><span>MySQL</span><span>REST APIs</span><span>Composer</span><span>JavaScript</span><span>Git</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media commerce">
+            <span class="project-logo">WC</span>
+          </div>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>WordPress Plugin</span>
+              <span>WooCommerce</span>
+            </div>
+            <h3>WooCommerce Plugin for APIFELCore</h3>
+            <p>Custom WordPress/WooCommerce plugin connecting online store checkout and order workflows with APIFELCore electronic invoicing services.</p>
+            <ul class="impact-list">
+              <li>Hooked into WooCommerce order events to generate and synchronize fiscal documents.</li>
+              <li>Created admin settings for API credentials, tax options and invoice behavior.</li>
+              <li>Handled API errors, retries and customer-facing document availability.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>WordPress</span><span>WooCommerce</span><span>PHP</span><span>MySQL</span><span>Hooks</span><span>REST APIs</span><span>Payment Flow</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media retail">
+            <span class="project-logo">FC</span>
+          </div>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Business System</span>
+              <span>Retail / Food</span>
+            </div>
+            <h3>Frescarne</h3>
+            <p>Laravel operational web system for a fresh meat business, supporting product management, transactional records and reporting needs for day-to-day administration.</p>
+            <ul class="impact-list">
+              <li>Built database models for products, inventory movement, sales and business reporting.</li>
+              <li>Delivered responsive interfaces for office and counter workflows.</li>
+              <li>Improved visibility into operations through searchable records and summary dashboards.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>PHP</span><span>Laravel</span><span>MySQL</span><span>Bootstrap</span><span>JavaScript</span><span>Reports</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media public">
+            <span class="project-logo">DG</span>
+          </div>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Government Workflow</span>
+              <span>DIGECAM</span>
+            </div>
+            <h3>Training Workshops for DIGECAM</h3>
+            <p>Web platform for managing training workshops, registration, attendance and administrative review processes for DIGECAM-related programs.</p>
+            <ul class="impact-list">
+              <li>Created user and role flows for administrators, reviewers and participants.</li>
+              <li>Managed workshop schedules, participant data, status changes and printable records.</li>
+              <li>Supported auditability through controlled access and structured historical data.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>PHP</span><span>MySQL</span><span>Role Access</span><span>JavaScript</span><span>PDF/Reports</span><span>Responsive UI</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media security">
+            <span class="project-logo">SP</span>
+          </div>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Registry Platform</span>
+              <span>DIGECAM</span>
+            </div>
+            <h3>Private Security Companies - DIGECAM</h3>
+            <p>Administrative system for managing private security company records, documentation, review states and institutional reporting.</p>
+            <ul class="impact-list">
+              <li>Modeled company profiles, legal records, document requirements and workflow states.</li>
+              <li>Built secure CRUD modules with validation and permission-based access.</li>
+              <li>Produced searchable records and exports for administrative follow-up.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>PHP</span><span>MySQL</span><span>CRUD</span><span>Validation</span><span>Access Control</span><span>Reports</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media warehouse">
+            <span class="project-logo">SB</span>
+          </div>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Inventory System</span>
+              <span>SBS</span>
+            </div>
+            <h3>SBS Warehouse System</h3>
+            <p>Inventory and warehouse management system for SBS, focused on stock control, movement traceability, records and operational reporting.</p>
+            <ul class="impact-list">
+              <li>Implemented item catalogs, stock entries, exits, adjustments and history tracking.</li>
+              <li>Created reporting views to support inventory review and accountability.</li>
+              <li>Built practical forms and filters for repeated administrative use.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>PHP</span><span>MySQL</span><span>Inventory</span><span>JavaScript</span><span>Bootstrap</span><span>Excel Export</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media lottery">
+            <span class="project-logo">VL</span>
+          </div>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Sales Platform</span>
+              <span>Lottery</span>
+            </div>
+            <h3>Lottery Sales System</h3>
+            <p>Sales and administration platform for lottery operations, including ticket tracking, seller workflows, results management and transaction records.</p>
+            <ul class="impact-list">
+              <li>Created modules for sellers, tickets, sales records, draws and balances.</li>
+              <li>Designed relational structures to support traceability and reconciliation.</li>
+              <li>Delivered responsive administrative screens for fast daily operation.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>PHP</span><span>MySQL</span><span>Sales</span><span>JavaScript</span><span>Reports</span><span>Responsive UI</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media messaging">
+            <span class="project-logo">WA</span>
+          </div>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Messaging API</span>
+              <span>Node.js</span>
+            </div>
+            <h3>WhatsApp API with Node.js</h3>
+            <p>Node.js service for WhatsApp-based messaging automation, focused on API endpoints, message routing, session handling and integration with business workflows.</p>
+            <ul class="impact-list">
+              <li>Built server-side endpoints to trigger and manage WhatsApp message flows.</li>
+              <li>Handled message payloads, delivery states, session behavior and integration responses.</li>
+              <li>Structured the service for operational use with logging, validation and maintainable modules.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>Node.js</span><span>JavaScript</span><span>Express</span><span>REST APIs</span><span>WhatsApp API</span><span>JSON</span><span>Git</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media vostok">
+            <span class="project-logo">VK</span>
+          </div>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Web Platform</span>
+              <span>Business System</span>
+            </div>
+            <h3>Vostok</h3>
+            <p>Business web platform focused on operational workflows, data management, administrative modules and reliable access to structured information for daily use.</p>
+            <ul class="impact-list">
+              <li>Built database-backed modules for managing core business records and internal processes.</li>
+              <li>Implemented responsive administrative screens with validation, filters and practical user flows.</li>
+              <li>Supported maintainable delivery through modular code, organized data structures and version control.</li>
+            </ul>
+            <div class="tech-tags">
+              <span>PHP</span><span>Laravel</span><span>MySQL</span><span>JavaScript</span><span>Bootstrap</span><span>CRUD</span><span>Git</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Technical Stack</p>
+        <h2>Centered on Laravel, PHP and the tools modern web teams rely on.</h2>
+      </div>
+      <div class="skills-grid">
+        <article>
+          <h3>Laravel & Back-End</h3>
+          <p>Laravel, PHP, MVC architecture, REST APIs, Eloquent-style data modeling, Composer, authentication, role-based access, WordPress backend development and WooCommerce customizations.</p>
+        </article>
+        <article>
+          <h3>Databases</h3>
+          <p>MySQL, relational schema design, migrations, indexes, transactional records, audit logs, reporting queries and data exports.</p>
+        </article>
+        <article>
+          <h3>Front-End</h3>
+          <p>JavaScript, HTML5, CSS3, SASS-ready styling, responsive layouts, Bootstrap, cross-browser implementation, admin dashboards and form-heavy workflows.</p>
+        </article>
+        <article>
+          <h3>Tools & Delivery</h3>
+          <p>Git, Composer, local development environments with Laragon/MAMP-style setups, multiple PHP versions, Gulp-style asset compiling, design asset export and deployment support.</p>
+        </article>
+        <article>
+          <h3>Integrations</h3>
+          <p>Custom APIs, fiscal services, WooCommerce order hooks, payment-adjacent workflows, email notifications and external service synchronization.</p>
+        </article>
+        <article>
+          <h3>Marketing Support</h3>
+          <p>Landing pages, responsive websites, campaign forms, custom HTML email support, Google Tag Manager-ready JavaScript events and performance-minded implementation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section fit-section" id="fit">
+      <div>
+        <p class="eyebrow">Role Alignment</p>
+        <h2>Why this portfolio fits senior web developer roles.</h2>
+      </div>
+      <div class="fit-list">
+        <p><strong>Laravel/PHP/MySQL:</strong> Multiple projects were built as database-backed Laravel and PHP systems with administrative workflows, validation and reporting.</p>
+        <p><strong>WordPress/WooCommerce:</strong> The APIFELCore plugin demonstrates custom plugin development, hooks, store workflows and API integrations.</p>
+        <p><strong>Custom APIs:</strong> APIFELCore and WooCommerce integration work show server-side API design, consumption, error handling and synchronization.</p>
+        <p><strong>Delivery Pace:</strong> The project range shows the ability to switch contexts across commerce, government, inventory, sales and operational systems.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Available for freelance and contract web development.</h2>
+        <p>Open to freelance, contract and full-time opportunities focused on reliable web platforms, integrations and business systems.</p>
+      </div>
+      <div class="contact-panel">
+        <a class="contact-link whatsapp-link" href="https://wa.me/50242149372" target="_blank" rel="noreferrer">
+          <span class="contact-icon">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M5.5 18.5 4 22l3.8-1.3A9 9 0 1 0 3 12a8.9 8.9 0 0 0 2.5 6.5Z"></path>
+              <path d="M8.8 8.9c.2-.5.4-.5.7-.5h.5c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.4.5c-.2.2-.2.4 0 .6.5.9 1.2 1.6 2.1 2.1.2.1.4.1.6-.1l.6-.5c.2-.1.4-.2.6-.1l1.7.8c.3.1.4.3.4.6v.4c0 .3-.1.6-.5.8-.4.2-1.1.4-1.8.3-2.7-.4-5.4-2.5-6.4-5-.3-.7-.3-1.4-.1-1.8Z"></path>
+            </svg>
+          </span>
+          <span>
+            <strong>WhatsApp</strong>
+            <small>+502 4214-9372</small>
+          </span>
+        </a>
+        <a class="contact-link" href="mailto:gersonaltamirano@gmail.com">
+          <span class="contact-icon">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M4 6h16v12H4z"></path>
+              <path d="m4 7 8 6 8-6"></path>
+            </svg>
+          </span>
+          <span>
+            <strong>Email</strong>
+            <small>gersonaltamirano@gmail.com</small>
+          </span>
+        </a>
+        <a class="contact-link" href="tel:+50242149372">
+          <span class="contact-icon">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M7 4h3l1.4 4-2 1.2a11 11 0 0 0 5.4 5.4l1.2-2L20 14v3a3 3 0 0 1-3.3 3A14.8 14.8 0 0 1 4 7.3 3 3 0 0 1 7 4Z"></path>
+            </svg>
+          </span>
+          <span>
+            <strong>Phone</strong>
+            <small>+502 4214-9372</small>
+          </span>
+        </a>
+        <a class="contact-link" href="https://www.linkedin.com/in/gersonaltamirano/" target="_blank" rel="noreferrer">
+          <span class="contact-icon">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M6.5 10v8"></path>
+              <path d="M6.5 6v.1"></path>
+              <path d="M11 18v-8"></path>
+              <path d="M11 13.5c0-2 1.2-3.5 3.2-3.5s3.3 1.3 3.3 4V18"></path>
+              <path d="M4 4h16v16H4z"></path>
+            </svg>
+          </span>
+          <span>
+            <strong>LinkedIn</strong>
+            <small>gersonaltamirano</small>
+          </span>
+        </a>
+        <a class="contact-link" href="https://github.com/Gersonaltamirano" target="_blank" rel="noreferrer">
+          <span class="contact-icon">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M9 19c-4 1.2-4-2-5.5-2.5"></path>
+              <path d="M15 22v-3.5c0-1 .1-1.5-.5-2 2.8-.3 5.5-1.4 5.5-6A4.6 4.6 0 0 0 18.7 7 4.2 4.2 0 0 0 18.6 4s-1-.3-3.4 1.3a11.5 11.5 0 0 0-6.2 0C6.6 3.7 5.6 4 5.6 4a4.2 4.2 0 0 0-.1 3A4.6 4.6 0 0 0 4.2 10c0 4.6 2.7 5.7 5.5 6-.6.5-.8 1.2-.8 2V22"></path>
+            </svg>
+          </span>
+          <span>
+            <strong>GitHub</strong>
+            <small>Gersonaltamirano</small>
+          </span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Senior Web Developer Portfolio</span>
+    <span>PHP · MySQL · Laravel · WordPress · WooCommerce · Node.js · APIs</span>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
